@@ -131,5 +131,59 @@ public class Main {
 //        } finally {
 //            System.err.println("finally");
 //        }
+
+//        try {
+//            throw new RuntimeException();
+//        } finally {
+//            System.err.println("finally");
+//        }
+
+//        try {
+//            return;
+//        } finally {
+//            System.err.println("finally");
+//        }
+
+//        try {
+//            System.exit(42);
+//        } finally {
+//            System.err.println("finally");
+//        }
+
+//        try {
+//            Runtime.getRuntime().exit(42);
+//        } finally {
+//            System.err.println("finally");
+//        }
+
+//        try {
+//            Runtime.getRuntime().halt(42);
+//        } finally {
+//            System.err.println("finally");
+//        }
+
+//        try {
+//            System.err.println("try");
+//            if (true) {throw new RuntimeException();}
+//        } finally {
+//            System.err.println("finally");
+//        }
+//        System.err.println("more");
+
+//        try {
+//            System.err.println("try");
+//            throw new RuntimeException();
+//        } finally {
+//            System.err.println("finally");
+//        }
+//        System.err.println("more");
+
+//        try {
+//            System.err.println("try");
+//            if (true) {return;}
+//        } finally {
+//            System.err.println("finally");
+//        }
+//        System.err.println("more");
     }
 }
