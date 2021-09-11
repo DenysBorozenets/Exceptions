@@ -1,8 +1,11 @@
 package com.denis;
 
+import java.io.EOFException;
+import java.io.FileNotFoundException;
+
 public class Main {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws EOFException, FileNotFoundException {
 
 //        try {
 //            System.err.print(" 0");
@@ -185,5 +188,18 @@ public class Main {
 //            System.err.println("finally");
 //        }
 //        System.err.println("more");
+
+//        if (System.currentTimeMillis() % 2 == 0) {
+//            throw new EOFException();
+//        } else {
+//            throw new FileNotFoundException();
+//        }
+
+//        f0();
+//        f1();
+//        public static void f0() throws EOFException {...}
+//        public static void f1() throws FileNotFoundException {...}
+
     }
+
 }
